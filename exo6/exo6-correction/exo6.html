@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style6.css">
+  <title>Exercice 6</title>
+</head>
+<body>
+  <h1>Formulaire</h1>
+  <form action="index.html" method="post">
+    <fieldset class="block1">
+      <legend class="block1">Votre identité</legend>
+      <label for="name">1. Nom :</label>
+      <input type="text" id="name" name="name" placeholder="Nom">
+      <label for="firstname">2. Prénom :</label>
+      <input type="text" id="firstname" name="firstname" placeholder="Prénom">
+      <label for="email">3. Adresse e-mail :</label>
+      <input type="email" id="email" name="email" placeholder="Adresse e-mail">
+    </fieldset>
+    <fieldset class="block2">
+      <legend class="block2">Adresse de livraison</legend>
+      <label for="address">1. Adresse :</label>
+      <textarea name="address" id="address" cols="30" rows="10" placeholder="Adresse"></textarea>
+      <label for="zipCode">2. Code postal :</label>
+      <input type="text" id="zipCode"  name="zipCode" placeholder="Code postal">
+      <label for="city">3. Ville :</label>
+      <input type="text" id="city" name="city" placeholder="Ville">
+    </fieldset>
+    <fieldset class="block3">
+      <legend class="block3">Information de règlement</legend>
+      <p>Type de carte :</p>
+      <label class="card" for="visa">VISA </label>
+      <input type="radio" id="visa" name="card">
+      <label class="card" for="mastercard">Mastercard </label>
+      <input type="radio" id="mastercard" name="card">
+      <label class="card" for="cardNumber">2. Numéro de carte bancaire :</label>
+      <input type="number" id="cardNumber"  name="cardNumber" placeholder="Numéro de carte bancaire">
+      <label for="securityCode">3. Code de sécurité :</label>
+      <input type="number" id="securityCode"  name="securityCode">
+      <label for="owner">4. Nom du titulaire :</label>
+      <input type="text" id="owner" name="owner" placeholder="Titulaire de la carte">
+    </fieldset>
+    <input type="submit" value="J'achète">
+  </form>
+</body>
+</html>

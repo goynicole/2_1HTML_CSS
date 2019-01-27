@@ -1,0 +1,31 @@
+label, input, textarea
+{
+  display: block;
+  /*block transforme des élèments en ligne en block, l'élément en block occupe
+  tout l'espace disponible sur une ligne*/
+}
+label
+{
+  float: left;
+}
+ input[type="radio"]
+{
+margin-left: 80px;
+}
+
+.card
+{
+  clear: both;
+}
+.block1
+{
+  background: blue;
+}
+.block2
+{
+  background: purple;
+}
+.block3
+{
+  background: pink;
+}
